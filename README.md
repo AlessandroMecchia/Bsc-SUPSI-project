@@ -27,6 +27,6 @@ These projects reflect my learning experience, problem-solving skills, and progr
 
 ## How to Use 🛠️
  Clone the repository:
-    ```bash
+    ```
    git clone https://github.com/AlessandroMecchia/Bcs-SUPSI-project.git
     ```
