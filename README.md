@@ -15,7 +15,6 @@ The repository is organized by academic year for easy navigation:
 
 - **`Year1/`**: Projects and works completed during the first year.
   - `data_project/` - Mid-year project in statistics and hackathon.
-  - `hackaton/` - Hackaton June 2024.
 
 - **`Year2/`**: Projects and works completed during the second year.
   - `supervised_learning/` - Projects of the lecture Supervised Learning.
