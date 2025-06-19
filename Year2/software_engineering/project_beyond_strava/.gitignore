@@ -1,0 +1,29 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code settings
+.vscode/
+
+# PyCharm project settings
+.idea/
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Logs
+*.log
+
+comandi_git

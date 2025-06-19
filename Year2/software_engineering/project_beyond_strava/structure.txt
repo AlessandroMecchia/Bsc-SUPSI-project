@@ -1,0 +1,36 @@
+project_root/
+│
+├── web_service/
+│   ├── __init__.py             # Initializes the Flask app and registers blueprints
+│   ├── database.py             # Sets up MongoDB connection and defines collections
+│   ├── routes/                 # HTTP endpoint definitions
+│   │   ├── __init__.py         # Aggregates all blueprints for easy registration
+│   │   ├── activities.py       # Routes related to activity resources
+│   │   ├── athletes.py         # Routes for athlete resources and stats
+│   ├── services/               # Business logic, calculations, and processing
+│   │   ├── summary_service.py  # Logic for generating athlete summaries
+│   ├── Pipfile                 # Dependencies specific to the web_service
+│
+├── client_lib/
+│   ├── __init__.py             # Exposes public API, e.g., services
+│   ├── client.py               # Main client module
+│   ├── services/               # Client-side logic and service functions
+│   │   ├── __init__.py         # Exposes service modules
+│   │   ├── activities_services.py
+│   │   ├── athlete_services.py
+│   │   ├── streams_services.py
+│   ├── config.py               # Client-specific configurations
+│   ├── exception.py            # Custom exception handling
+│   ├── Pipfile                 # Dependencies specific to client_lib
+│   ├── setup.py                # Setup script to create an installable package
+│
+├── db/
+│   ├── populate_db.py          # Script to populate DB from Strava data
+│   ├── query.py                    # some test query
+│
+├── demo.py                     # Test app / example usage
+├── .gitignore
+├── README.md
+├── structure.txt               # Document describing the project structure
+├── Pipfile                     # Dependencies for scripts
+├── utils                       # utils file for the demo

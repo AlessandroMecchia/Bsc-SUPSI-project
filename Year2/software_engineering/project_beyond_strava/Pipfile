@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fitparse = "*"
+matplotlib = "*"
+folium = "*"
+polyline = "*"
+client-lib = {file = "client_lib\\dist\\client_lib-0.1.0-py3-none-any.whl"}
+mongoengine = "*"
+flask = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
